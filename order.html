@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Restaurant Website</title>
+
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="logo.jpg" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+         
+                <ul class="space">
+                    <li>
+                        <a href="index.html">|    Home    |</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">|    Category    |</a>
+                        .<div class="dropdown-content">
+                            <a href="#">|BIRYANI|</a>
+                            <a href="#">|Burger|</a>
+                            <a href="#">|CAKE|</a>
+                            <a href="#">|CHINESE|</a>
+                            <a href="#">|DHOKLA|</a>
+                            <a href="#">|DOSA|</a>
+                            <a href="#">|FAFRA|</a>
+                            <a href="#">|GATHIYA|</a>
+                            <a href="#">|ICE CREAM|</a>
+                            <a href="#">|IDLI|</a>
+                            <a href="#">|PATTIES|</a>
+                            <a href="#">|PIZZA|</a>
+                            <a href="#">|STARTER|</a>
+                            <a href="#">|VEG MAIN COURSE|</a>
+                           
+                          </div>
+                        </li>
+                    <li>
+                        <a href="foods.html">|    Foods    |</a>
+                    </li>
+                    <li>
+                        <a href="conract.html">|Contact    |</a>
+                    </li>
+                   
+                </ul>
+            
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+   <!-- ==================================form============================================== -->
+    <section class="food-search">
+        <div class="container">
+            
+            <h2 class="text-center text-white">Fill this form to confirm your order.</h2>
+
+            <form action="connection.php" method="post" class="order">
+               
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="order-label">Full Name</div>
+                    <input type="text" name="fullname" placeholder="E.g. Ankit Sonu" class="input-responsive" required>
+
+                    <div class="order-label">Phone Number</div>
+                    <input type="tel" name="contact" placeholder="E.g. 7277******" class="input-responsive" required>
+
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email" placeholder="E.g. A3fooddelivery@gmail.com" class="input-responsive" required>
+
+                    <div class="order-label">Address</div>
+                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required>
+                    </textarea>
+
+                    <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
+                </fieldset>
+
+            </form>
+
+        </div>
+    </section>
+       
+    
+
+
+
+
+
+
+
+
+
+   
+    <footer>
+    <div class="color">
+
+        <!-- footer Section Starts Here -->
+        <section class="footer">
+            <div class="container text-center">
+                <p>All rights reserved. Designed By <a href="#">A3</a></p>
+            </div>
+        </section>
+        <!-- footer Section Ends Here -->
+    </div>
+</footer>
+</body>
+</html>
